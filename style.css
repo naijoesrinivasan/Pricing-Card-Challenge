@@ -120,3 +120,14 @@ button:hover {
     opacity: 0.5;
     margin-left: 5px;
 }
+
+@media (max-width: 680px) {
+    .bottom-left,
+    .bottom-right,
+    .main-container,
+    .bottom-section {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+    }
+}
